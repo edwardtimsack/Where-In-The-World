@@ -37,7 +37,7 @@ header h1{
 .switch{
     display: flex;
     gap: 10px;
-    padding-right: 180px;
+    padding-right: 130px;
     padding-top: 10px;
     /* background-color: violet; */
 
@@ -83,7 +83,7 @@ header h1{
     /* justify-content: center; */
     /* justify-content: space-evenly; */
     /* background-color: #e90303; */
-    margin-right: 180px;
+    margin-right: 130px;
     /* gap: 20px; */
     /* padding-inline: 2rem; */
 }
@@ -117,7 +117,6 @@ header h1{
 .container h1{
     font-weight: 500;
     padding-inline: 2rem;
-    font-size: 20px
     /* background-color: #888888; */
 }
 
