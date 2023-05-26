@@ -80,12 +80,27 @@ header h1{
     width: 200px;
     height: 40px;
     margin-top: 30px;
-    /* justify-content: center; */
-    /* justify-content: space-evenly; */
-    /* background-color: #e90303; */
+   
     margin-right: 130px;
     /* gap: 20px; */
-    /* padding-inline: 2rem; */
+}
+.filter{
+    padding: 20px;
+    margin-right: 130px;
+    
+
+}
+.filter select{
+    padding: 8px 8px 8px 15px;
+    width: 170px;
+    background-color: white;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px #ffff;
+
+    /* background-color: blueviolet; */
+
 }
 .drop i{
     padding-top: 10px;
@@ -106,18 +121,44 @@ header h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 6fr;
     padding-left: 140px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
-    /* justify-content: space-evenly; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* gap: 150px; */
+   
 }
 .container h1{
     font-weight: 500;
-    padding-inline: 2rem;
+    padding-left: 2rem;
     /* background-color: #888888; */
+}
+.bio{
+    padding-left: 2rem;
+    margin-top: 10px;
+}
+.population{
+    padding-left: 2rem;
+
+
+}
+.capital{
+    padding-left: 2rem;
+
+
+}
+.read-more {
+    padding: 8px 8px 8px 15px;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 2rem;
+    margin-top: 10px;
+
+}
+.read-more a{
+    text-decoration: none;
+    cursor: pointer;
+    /* margin-top: 0px; */
+    color: white;
+
 }
 
 .one{
@@ -168,6 +209,9 @@ header h1{
     box-shadow: 0px 0px 4px #ffff;
 
     
+}
+.five h1{
+    font-size: 25px;
 }
 .six{
     width: 320px;
